@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+body {
+  text-align: center;
+  background-color: black;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #DBEDF3;
+  font-family: "Metal Mania", cursive;
+  text-shadow: 3px 0 red;
+}
+
+.instructions{
+  color: #DBEDF3;
+  font-family: sans-serif;
+  margin-top:10px;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+  margin-top:20px;
+}
+
+.a {
+  background-image: url("images/tom-1.jpg");
+  background-size:100%;
+}
+
+.s {
+  background-image: url("images/tom-2.jpg");
+  background-size:100%;
+}
+
+.d {
+  background-image: url("images/tom-3.jpg");
+  background-size:100%;
+}
+
+.f {
+  background-image: url("images/tom-4.jpg");
+  background-size:100%;
+}
+
+.h {
+  background-image: url("images/snare.jpg");
+  background-size:100%;
+}
+
+.j {
+  background-image: url("images/crash-metal.jpg");
+  background-size:100%;
+}
+
+.k {
+  background-image: url("images/crash.jpg");
+  background-size:100%;
+}
+
+.l {
+  background-image: url("images/kick.jpg");
+  background-size:100%;
+}
+
+.set {
+  margin: 0px auto;
+  max-width:310px;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: red;
+  text-shadow: 3px 0 black;
+  border-radius: 15px;
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+/* Media Queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .set{
+    max-width:700px;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  h1{
+    font-size:5rem;
+  }
+  .set{
+    margin-top:100px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1300px and up) */
+@media only screen and (min-width: 1300px) {
+  .set{
+    max-width:1300px;
+  }
+}
